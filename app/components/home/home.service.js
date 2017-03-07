@@ -3,10 +3,11 @@
 
 	.factory('homeService', ['$http', function($http){
 		return {
-			getMovies: function(){
+			getMovies: function(term){
 				var promise;
 
-				promise = $http.get('mock/movies.json').then(function(response){
+				promise = $http.get('http://www.omdbapi.com/?s=' + term.trim().replace(/ /g, '+')).then(function(response){
+					console.log(response);
 					return response.data;
 				});
 
