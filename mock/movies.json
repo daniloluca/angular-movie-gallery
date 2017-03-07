@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"name": "name",
+		"thumbnail": "http://placehold.it/400x300",
+		"rating": 9.4
+	},
+	{
+		"id": 2,
+		"name": "name",
+		"thumbnail": "http://placehold.it/400x300",
+		"rating": 9.4
+	},
+	{
+		"id": 3,
+		"name": "name",
+		"thumbnail": "http://placehold.it/400x300",
+		"rating": 9.4
+	},
+	{
+		"id": 4,
+		"name": "name",
+		"thumbnail": "http://placehold.it/400x300",
+		"rating": 9.4
+	},
+	{
+		"id": 5,
+		"name": "name",
+		"thumbnail": "http://placehold.it/400x300",
+		"rating": 9.4
+	}
+]

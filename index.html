@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="gallery">
+	<head>
+		<meta charset="utf-8">
+		<title>Movie Gallery</title>
+
+		<!-- AngularJS -->
+		<script src="bower_components/angular/angular.min.js"></script>
+		<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+		<!-- JQuery -->
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+		<!-- Bootstrap -->
+		<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"></link>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+		<!-- Custom CSS -->
+	    <link href="assets/css/thumbnail-gallery.css" rel="stylesheet">
+	</head>
+	<body>
+
+		<div ui-view></div>
+
+		<!-- APP -->
+		<script src="app/app.module.js"></script>
+		<script src="app/app.routes.js"></script>
+
+		<!-- Controllers -->
+		<script src="app/components/home/home.controller.js"></script>
+
+		<!-- Directives -->
+		<script src="app/shared/movieThumbnail/movieThumbnail.directive.js"></script>
+
+		<!-- Services -->
+		<script src="app/components/home/home.service.js"></script>
+	</body>
+</html>
